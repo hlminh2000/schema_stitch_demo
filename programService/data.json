@@ -1,0 +1,157 @@
+[
+    {
+        "short_name": "study1",
+        "description": "",
+        "name": "",
+        "membership_type": "",
+        "commitment_donors": 5,
+        "submitted_donors": 6,
+        "genomic_donors": 7,
+        "website": "",
+        "institutions":"",
+        "countries": "",
+        "regions": "",
+        "cancer_types": [
+            {
+                "id": "1",
+                "name": "2"
+            },
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "primary_sites": [
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "created_at": 1557272882943,
+        "updated_at": 1557272882943
+    },
+    {
+        "short_name": "study2",
+        "description": "",
+        "name": "",
+        "membership_type": "",
+        "commitment_donors": 5,
+        "submitted_donors": 6,
+        "genomic_donors": 7,
+        "website": "",
+        "institutions":"",
+        "countries": "",
+        "regions": "",
+        "cancer_types": [
+            {
+                "id": "1",
+                "name": "2"
+            },
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "primary_sites": [
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "created_at": 1557272882943,
+        "updated_at": 1557272882943
+    },
+    {
+        "short_name": "study3",
+        "description": "",
+        "name": "",
+        "membership_type": "",
+        "commitment_donors": 5,
+        "submitted_donors": 6,
+        "genomic_donors": 7,
+        "website": "",
+        "institutions":"",
+        "countries": "",
+        "regions": "",
+        "cancer_types": [
+            {
+                "id": "1",
+                "name": "2"
+            },
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "primary_sites": [
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "created_at": 1557272882943,
+        "updated_at": 1557272882943
+    },
+    {
+        "short_name": "study4",
+        "description": "",
+        "name": "",
+        "membership_type": "",
+        "commitment_donors": 5,
+        "submitted_donors": 6,
+        "genomic_donors": 7,
+        "website": "",
+        "institutions":"",
+        "countries": "",
+        "regions": "",
+        "cancer_types": [
+            {
+                "id": "1",
+                "name": "2"
+            },
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "primary_sites": [
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "created_at": 1557272882943,
+        "updated_at": 1557272882943
+    },
+    {
+        "short_name": "",
+        "description": "",
+        "name": "",
+        "membership_type": "",
+        "commitment_donors": 5,
+        "submitted_donors": 6,
+        "genomic_donors": 7,
+        "website": "",
+        "institutions":"",
+        "countries": "",
+        "regions": "",
+        "cancer_types": [
+            {
+                "id": "1",
+                "name": "2"
+            },
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "primary_sites": [
+            {
+                "id": "1",
+                "name": "2"
+            }
+        ],
+        "created_at": 1557272882943,
+        "updated_at": 1557272882943
+    }
+]

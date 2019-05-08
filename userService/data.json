@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "email": "some.one@some.where",
+        "first_name": "Some",
+        "last_name": "One",
+        "created_at": 1557272882943,
+        "last_login": 1557272882943,
+        "name": "Some One",
+        "preferred_language": "English",
+        "status": "APPROVED",
+        "type": "USER",
+        "applications": [],
+        "groups": [],
+        "permissions": [
+            "PROGRAM_PROGRAM1.READ",
+            "PROGRAM_PROGRAM2.WRITE"
+        ]
+    },
+    {
+        "id": 2,
+        "email": "some.one@some.where",
+        "first_name": "Some",
+        "last_name": "One",
+        "created_at": 1557272882943,
+        "last_login": 1557272882943,
+        "name": "Some One",
+        "preferred_language": "English",
+        "status": "APPROVED",
+        "type": "USER",
+        "applications": [],
+        "groups": [],
+        "permissions": [
+            "PROGRAM_PROGRAM1.READ",
+            "PROGRAM_PROGRAM2.WRITE"
+        ]
+    },
+    {
+        "id": 3,
+        "email": "some.one@some.where",
+        "first_name": "Some",
+        "last_name": "One",
+        "created_at": 1557272882943,
+        "last_login": 1557272882943,
+        "name": "Some One",
+        "preferred_language": "English",
+        "status": "APPROVED",
+        "type": "USER",
+        "applications": [],
+        "groups": [],
+        "permissions": [
+            "PROGRAM_PROGRAM1.READ",
+            "PROGRAM_PROGRAM2.WRITE"
+        ]
+    },
+    {
+        "id": 4,
+        "email": "some.one@some.where",
+        "first_name": "Some",
+        "last_name": "One",
+        "created_at": 1557272882943,
+        "last_login": 1557272882943,
+        "name": "Some One",
+        "preferred_language": "English",
+        "status": "APPROVED",
+        "type": "USER",
+        "applications": [],
+        "groups": [],
+        "permissions": [
+            "PROGRAM_PROGRAM1.READ",
+            "PROGRAM_PROGRAM2.WRITE"
+        ]
+    }
+]
