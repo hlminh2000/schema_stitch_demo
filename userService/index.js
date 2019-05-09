@@ -15,5 +15,5 @@ app.get('/user/:queryId', (req, res, next) => {
 })
 
 app.listen(USER_SERVICE_PORT, () => {
-    console.log(`user service listening on port: ${USER_SERVICE_PORT}`)
+    console.log(`user service listening at: http://localhost:${USER_SERVICE_PORT}`)
 })

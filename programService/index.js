@@ -15,5 +15,5 @@ app.get('/program/:queryShortname', (req, res, next) => {
 })
 
 app.listen(PROGRAM_SERVICE_PORT,  () => {
-  console.log(`program service listening on port: ${PROGRAM_SERVICE_PORT}`)
+  console.log(`program service listening on at: http://localhost:${PROGRAM_SERVICE_PORT}`)
 })
