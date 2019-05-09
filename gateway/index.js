@@ -1,10 +1,11 @@
 const { ApolloServer } = require('apollo-server')
 const { mergeSchemas } = require("graphql-tools")
 
+const { gql } = require('apollo-server');
 const makeExecutableUserSchema = require("./schemas/userService")
 const makeExecutableProgramSchema = require("./schemas/programService")
 
-const linkTypeDefs = `
+const linkTypeDefs = gql`
   extend type User {
     programs: [Program]
   }
