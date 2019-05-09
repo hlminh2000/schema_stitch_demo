@@ -6,9 +6,9 @@ const USER_SERVICE_ROOT = "http://localhost:9001"
 
 const typeDefs = gql`
     enum UserStatus {
-        NEWHOPE
-        EMPIRE
-        JEDI
+        APPROVED
+        PENDING
+        REJECTED
     }
 
     enum UserType {
