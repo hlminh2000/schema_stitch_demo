@@ -32,6 +32,7 @@ const typeDefs = gql`
         primary_sites: [PrimarySite]
         created_at: Int
         updated_at: Int
+        adminIds: [Int]
     }
 
     type Query {

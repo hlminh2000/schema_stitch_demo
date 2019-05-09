@@ -14,14 +14,15 @@
         "groups": [],
         "permissions": [
             "study1",
-            "study2"
+            "study2",
+            "study3"
         ]
     },
     {
         "id": 2,
-        "email": "some.one@some.where",
-        "first_name": "Some",
-        "last_name": "One",
+        "email": "some.one.else@some.where",
+        "first_name": "Someone",
+        "last_name": "Else",
         "created_at": 1557272882943,
         "last_login": 1557272882943,
         "name": "Some One",
@@ -37,9 +38,9 @@
     },
     {
         "id": 3,
-        "email": "some.one@some.where",
+        "email": "some.one.else@some.where.else",
         "first_name": "Some",
-        "last_name": "One",
+        "last_name": "OneElse",
         "created_at": 1557272882943,
         "last_login": 1557272882943,
         "name": "Some One",

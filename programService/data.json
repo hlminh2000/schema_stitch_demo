@@ -28,7 +28,10 @@
             }
         ],
         "created_at": 1557272882943,
-        "updated_at": 1557272882943
+        "updated_at": 1557272882943,
+        "adminIds": [
+            1, 2, 3
+        ]
     },
     {
         "short_name": "study2",
@@ -59,7 +62,10 @@
             }
         ],
         "created_at": 1557272882943,
-        "updated_at": 1557272882943
+        "updated_at": 1557272882943,
+        "adminIds": [
+            1, 2, 3
+        ]
     },
     {
         "short_name": "study3",
@@ -90,7 +96,10 @@
             }
         ],
         "created_at": 1557272882943,
-        "updated_at": 1557272882943
+        "updated_at": 1557272882943,
+        "adminIds": [
+            1, 2, 3
+        ]
     },
     {
         "short_name": "study4",
@@ -121,7 +130,10 @@
             }
         ],
         "created_at": 1557272882943,
-        "updated_at": 1557272882943
+        "updated_at": 1557272882943,
+        "adminIds": [
+            1, 2, 3
+        ]
     },
     {
         "short_name": "",
@@ -152,6 +164,9 @@
             }
         ],
         "created_at": 1557272882943,
-        "updated_at": 1557272882943
+        "updated_at": 1557272882943,
+        "adminIds": [
+            1, 2, 3
+        ]
     }
 ]

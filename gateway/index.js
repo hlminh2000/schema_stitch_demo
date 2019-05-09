@@ -8,6 +8,9 @@ const linkTypeDefs = `
   extend type User {
     programs: [Program]
   }
+  extend type Program {
+    adminUsers: [User]
+  }
 `;
 
 const userSchema = makeExecutableUserSchema()
@@ -32,6 +35,22 @@ const schema = mergeSchemas({
               args: {
                 name: p,
               },
+              context,
+              info,
+            })
+          )
+      }
+    },
+    Program: {
+      adminUsers: {
+        fragment: `... on Program { adminIds }`,
+        resolve: (program, args, context, info) => 
+          program.adminIds.map(id => 
+            info.mergeInfo.delegateToSchema({
+              schema: userSchema,
+              operation: 'query',
+              fieldName: 'userById',
+              args: { id },
               context,
               info,
             })
