@@ -30,8 +30,8 @@ const typeDefs = gql`
         regions: String
         cancer_types: [CancerType]
         primary_sites: [PrimarySite]
-        created_at: Int
-        updated_at: Int
+        created_at: Float
+        updated_at: Float
         adminIds: [Int]
     }
 

@@ -21,8 +21,8 @@ const typeDefs = gql`
         email: String
         first_name: String
         last_name: String
-        created_at: Int
-        last_login: Int
+        created_at: Float
+        last_login: Float
         name: String
         preferred_language: String
         status: UserStatus
