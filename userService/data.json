@@ -13,8 +13,8 @@
         "applications": [],
         "groups": [],
         "permissions": [
-            "PROGRAM_PROGRAM1.READ",
-            "PROGRAM_PROGRAM2.WRITE"
+            "study1",
+            "study2"
         ]
     },
     {
@@ -31,8 +31,8 @@
         "applications": [],
         "groups": [],
         "permissions": [
-            "PROGRAM_PROGRAM1.READ",
-            "PROGRAM_PROGRAM2.WRITE"
+            "study1",
+            "study2"
         ]
     },
     {
@@ -49,8 +49,8 @@
         "applications": [],
         "groups": [],
         "permissions": [
-            "PROGRAM_PROGRAM1.READ",
-            "PROGRAM_PROGRAM2.WRITE"
+            "study1",
+            "study2"
         ]
     },
     {
@@ -67,8 +67,8 @@
         "applications": [],
         "groups": [],
         "permissions": [
-            "PROGRAM_PROGRAM1.READ",
-            "PROGRAM_PROGRAM2.WRITE"
+            "study1",
+            "study2"
         ]
     }
 ]

@@ -1,39 +1,50 @@
-const { ApolloServer, gql } = require('apollo-server');
+const { ApolloServer } = require('apollo-server')
+const { mergeSchemas } = require("graphql-tools")
 
-const books = [
-  {
-    title: 'Harry Potter and the Chamber of Secrets',
-    author: 'J.K. Rowling',
-  },
-  {
-    title: 'Jurassic Park',
-    author: 'Michael Crichton',
-  },
-];
+const makeExecutableUserSchema = require("./schemas/userService")
+const makeExecutableProgramSchema = require("./schemas/programService")
 
-const typeDefs = gql`
-  # Comments in GraphQL are defined with the hash (#) symbol.
-
-  # This "Book" type can be used in other type declarations.
-  type Book {
-    title: String
-    author: String
-  }
-
-  # The "Query" type is the root of all GraphQL queries.
-  # (A "Mutation" type will be covered later on.)
-  type Query {
-    books: [Book]
+const linkTypeDefs = `
+  extend type User {
+    programs: [Program]
   }
 `;
 
-const resolvers = {
-  Query: {
-    books: () => books,
-  },
-};
+const userSchema = makeExecutableUserSchema()
+const programSchema = makeExecutableProgramSchema()
 
-const server = new ApolloServer({ typeDefs, resolvers, uploads: false });
+const schema = mergeSchemas({
+  schemas: [
+    userSchema,
+    programSchema,
+    linkTypeDefs
+  ],
+  resolvers: {
+    User: {
+      programs: {
+        fragment: `... on User { permissions }`,
+        resolve: (user, args, context, info) => 
+          user.permissions.map(p => 
+            info.mergeInfo.delegateToSchema({
+              schema: programSchema,
+              operation: 'query',
+              fieldName: 'programByName',
+              args: {
+                name: p,
+              },
+              context,
+              info,
+            })
+          )
+      }
+    }
+  }
+})
+
+const server = new ApolloServer({ 
+  schema,
+  uploads: false 
+});
 
 server.listen().then(({ url }) => {
   console.log(`🚀  Gateway ready at ${url}`);
