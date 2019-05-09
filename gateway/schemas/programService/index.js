@@ -36,7 +36,7 @@ const typeDefs = gql`
     }
 
     type Query {
-        programByName(name: String): Program
+        programByName(name: String!): Program
     }
 `;
 
