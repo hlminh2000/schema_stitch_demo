@@ -1,4 +1,4 @@
-# schema_stitch_demo
+# Schema stitching demo
 
 ### Requirement:
 
